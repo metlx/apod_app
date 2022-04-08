@@ -8,7 +8,7 @@ function getFetch(){
     .then(res => res.json()) // parse response as JSON
     .then(data => {
       document.getElementById('h2').innerText = data[0].title
-      document.getElementById('img').src = data[0].url
+      document.body.background = data[0].url
     })
     .catch(err => {
       console.log(`error ${err}`)

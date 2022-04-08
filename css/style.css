@@ -11,8 +11,8 @@
 /* LAYOUT
 /*******************************************/
 body{
-  background: black;
-  color: white;
+  background-size: 100%;
+  color: limegreen;
 }
 img{
   display: block;
